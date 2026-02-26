@@ -16,8 +16,8 @@ public:
 
 void dumpForAudit(const CryptoBox& box) {
     cout << "=== Audit Dump ===\n";
-    cout << "Private Key : " << box.privateKey << endl;  // allowed
-    cout << "Key Version : " << box.keyVersion << endl;  // allowed
+    cout << "Private Key : " << box.privateKey << endl;  
+    cout << "Key Version : " << box.keyVersion << endl;  
 }
 
 void regularFunction(const CryptoBox& box) {
